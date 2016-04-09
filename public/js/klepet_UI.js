@@ -100,7 +100,12 @@ $(document).ready(function() {
       $('#seznam-uporabnikov').append(divElementEnostavniTekst(uporabniki[i]));
     }
   });
-
+ $('#seznam-uporabnikov div').click(function(){
+         var ime = $(this).text();
+      
+      $("#poslji-sporocilo").val('/zasebno "'+ ime + '" ');
+      $("#poslji-sporocilo").focus();
+    });
   setInterval(function() {
     socket.emit('kanali');
     socket.emit('uporabniki', {kanal: trenutniKanal});
