@@ -54,9 +54,11 @@ a {
   margin-right: 1em;
 }
 
+
 #pomoc {
   font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+<<<<<<< HEAD
 
 #seznam-uporabnikov div:hover {
   cursor: pointer;
@@ -65,3 +67,10 @@ a {
 #seznam-uporabnikov div:hover {
   background-color: #ddd;
 }
+=======
+img {
+  margin-left: 20px;
+  width: 200px; 
+}
+  
+>>>>>>> slike
