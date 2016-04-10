@@ -57,6 +57,7 @@ a {
 #pomoc {
   font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+
 #seznam-uporabnikov div:hover {
   cursor: pointer;
 }
