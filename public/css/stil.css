@@ -59,6 +59,7 @@ a {
   font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #seznam-uporabnikov div:hover {
   cursor: pointer;
@@ -74,3 +75,10 @@ img {
 }
   
 >>>>>>> slike
+=======
+#video {
+  width:200px;
+  height:150px;
+  margin-left:20px;
+} 
+>>>>>>> youtube
