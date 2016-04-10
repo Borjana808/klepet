@@ -131,3 +131,16 @@ function dodajSmeske(vhodnoBesedilo) {
   }
   return vhodnoBesedilo;
 }
+
+ function addVideo(vhodnoBesedilo){
+  if(vhodnoBesedilo.match(/^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]{11,11}).*/gi)){
+    var YouTubeVideo = vhodnoBesedilo.match(/https:\/\/www\.youtube\.com\/watch\?v=[^\s"]*/ig);
+      for (var i=0;i<YouTubeVideo.length;i++);
+        var video_link = prikaziLink(YouTubeVideo[i]);
+        vhodnoBesedilo = vhodnoBesedilo + +"<iframe id='youtube';' src='https://www.youtube.com/embed/" +video_id+ "' allowfullscreen ></iframe>";
+  }
+ }
+
+
+
+
